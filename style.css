@@ -114,21 +114,10 @@ footer a:hover {
     width: 40%;
   }
 
-
-
   .error { color: red; }
-  .valid { color: green; }
-  .invalid { color: orange; }
-  .password-strength 
-  {
-    margin-top: 10px;
-    padding: 5px;
-    border-radius: 5px;
-    color: white;
-  }
-  .strength-strong { background-color: green; }
-  .strength-medium { background-color: orange; }
-  .strength-weak { background-color: red; }
+.password-strength { font-size: 12px; color: green; }
 
+
+  
 
 
