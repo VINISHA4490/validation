@@ -1,0 +1,134 @@
+header{
+    background-color: black;
+    width:100%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    height:85px;
+    }
+
+nav a:hover{
+    background-color: teal;
+    color:black ;
+}
+
+body {
+    margin-top: 450px;
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/images101.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#logo {
+    height:50px;
+    margin-right:25px;
+    float: left;
+    margin-top:2%;
+    margin-bottom:  20px;
+    width: 50px;
+}
+    
+
+
+.text-grp {
+    color: rgb(236, 82, 82);
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.book-container {
+    margin-bottom: 20px;
+}
+
+.grid {
+    margin-bottom: 30px;
+}
+
+
+
+.form-group {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+@media (max-width: 767px) {
+    .card {
+        margin-bottom: 20px; 
+    }
+}
+footer {
+   
+    color: #3614fc;            
+    text-align: center;     
+    padding: 20px;          
+    position: relative;     
+    bottom: 0;             
+    width: 100%;            
+}
+
+footer p {
+    margin: 10px 0;         
+}
+
+footer a {
+    color: #3614fc;     ;            
+    text-decoration: none;  
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
+
+.navbar-nav {
+    display: flex; 
+    flex-direction: row; 
+  }
+  .navbar-nav .nav-item {
+    margin-left: 15px;
+  }
+
+  .form-group{
+    width: 40%;
+  }
+  .card{
+    height: 40%;
+    width: 40%;
+  }
+
+
+
+  .error { color: red; }
+  .valid { color: green; }
+  .invalid { color: orange; }
+  .password-strength 
+  {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+  }
+  .strength-strong { background-color: green; }
+  .strength-medium { background-color: orange; }
+  .strength-weak { background-color: red; }
+
+
+
